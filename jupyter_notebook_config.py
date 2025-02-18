@@ -1,4 +1,5 @@
-from notebook.auth import passwd
+from jupyter_server.auth import passwd
+from traitlets.config import get_config
 
 # ตั้งค่าการใช้งาน Jupyter Notebook ด้วยรหัสผ่าน
 c = get_config()
