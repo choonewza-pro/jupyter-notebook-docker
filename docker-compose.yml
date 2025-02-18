@@ -10,3 +10,4 @@ services:
       - JUPYTER_ENABLE_LAB=yes
       - JUPYTER_PASSWORD=Hrd12345
     restart: always
+    network_mode: host
